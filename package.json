@@ -1,0 +1,27 @@
+{
+  "name": "rmeb-contracts",
+  "version": "1.0.0",
+  "description": "Contratos inteligentes de la Receta Medica Electronica",
+  "main": "artifact-index.js",
+  "scripts": {
+    "compile": "./node_modules/.bin/truffle compile",
+    "test": "./node_modules/.bin/truffle test",
+    "deploy-rinkeby": "./node_modules/.bin/truffle migrate --network rinkeby"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmeb/rmeb-contracts.git"
+  },
+  "author": "Andres Junge <andres.junge@consensys.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmeb/rmeb-contracts/issues"
+  },
+  "homepage": "https://github.com/rmeb/rmeb-contracts#readme",
+  "devDependencies": {
+    "ganache-cli": "^6.1.0",
+    "truffle": "4.1.5",
+    "truffle-hdwallet-provider": "0.0.3",
+    "zeppelin-solidity": "1.8.0"
+  }
+}
