@@ -1,6 +1,6 @@
 {
   "name": "rmeb-contracts",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Contratos inteligentes de la Receta Medica Electronica",
   "main": "artifact-index.js",
   "scripts": {
