@@ -3,7 +3,7 @@ pragma solidity 0.4.21;
 contract DespachoReceta {
     
     //Version del contrato
-    uint256 version = 1;
+    uint256 public version = 1;
     
     //Direccion del registro de farmacos 
     address public registroControlados;
