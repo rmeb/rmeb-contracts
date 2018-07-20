@@ -1,0 +1,283 @@
+{
+  "contractName": "RestrictedRegistryInterface",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_codigoFarmaco",
+          "type": "bytes32"
+        }
+      ],
+      "name": "isRestricted",
+      "outputs": [
+        {
+          "name": "_isRestricted",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity 0.4.21;\n\n\ncontract RestrictedRegistryInterface {\n    function isRestricted(bytes32 _codigoFarmaco) public view returns(bool _isRestricted);\n}\n",
+  "sourcePath": "/home/ajunge/work/rmeb/rmeb-contracts/contracts/RestrictedRegistryInterface.sol",
+  "ast": {
+    "absolutePath": "/home/ajunge/work/rmeb/rmeb-contracts/contracts/RestrictedRegistryInterface.sol",
+    "exportedSymbols": {
+      "RestrictedRegistryInterface": [
+        54
+      ]
+    },
+    "id": 55,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 46,
+        "literals": [
+          "solidity",
+          "0.4",
+          ".21"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 54,
+        "linearizedBaseContracts": [
+          54
+        ],
+        "name": "RestrictedRegistryInterface",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 53,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "isRestricted",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 49,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 48,
+                  "name": "_codigoFarmaco",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 53,
+                  "src": "91:22:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 47,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "91:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "90:24:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 52,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 51,
+                  "name": "_isRestricted",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 53,
+                  "src": "135:18:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 50,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "135:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "134:20:1"
+            },
+            "scope": 54,
+            "src": "69:86:1",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 55,
+        "src": "26:131:1"
+      }
+    ],
+    "src": "0:158:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/ajunge/work/rmeb/rmeb-contracts/contracts/RestrictedRegistryInterface.sol",
+    "exportedSymbols": {
+      "RestrictedRegistryInterface": [
+        54
+      ]
+    },
+    "id": 55,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 46,
+        "literals": [
+          "solidity",
+          "0.4",
+          ".21"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 54,
+        "linearizedBaseContracts": [
+          54
+        ],
+        "name": "RestrictedRegistryInterface",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 53,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "isRestricted",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 49,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 48,
+                  "name": "_codigoFarmaco",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 53,
+                  "src": "91:22:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 47,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "91:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "90:24:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 52,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 51,
+                  "name": "_isRestricted",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 53,
+                  "src": "135:18:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 50,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "135:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "134:20:1"
+            },
+            "scope": 54,
+            "src": "69:86:1",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 55,
+        "src": "26:131:1"
+      }
+    ],
+    "src": "0:158:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.21+commit.dfe3193c.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-07-20T02:54:29.692Z"
+}

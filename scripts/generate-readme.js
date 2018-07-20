@@ -42,6 +42,7 @@ function writeContractInfo(id) {
   outStream.write('|Contract|Address|\n')
   outStream.write('| --|--|\n')
   outStream.write(createContractString(artifacts.AllowanceRegistry, id))
+  outStream.write(createContractString(artifacts.RestrictedRegistry, id))
   outStream.write('\n')
 }
 
